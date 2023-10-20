@@ -1,40 +1,884 @@
 {
   "questions": [
     {
-      "id": 1,
-      "prompt": "What special prop should always be included for lists of elements?",
-      "answers": ["id", "name", "key", "prop"],
-      "correctIndex": 2
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 24
     },
     {
-      "id": 2,
-      "prompt": "A React component is a function that returns ______.",
-      "answers": ["HTML", "JSX", "props", "state"],
-      "correctIndex": 1
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 32
     },
     {
-      "id": 3,
-      "prompt": "Which event handler will run when a user is finished filling out a form?",
-      "answers": ["onSubmit", "onClick", "onChange", "onForm"],
-      "correctIndex": 0
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 33
     },
     {
-      "id": 4,
-      "prompt": "______ is a tool that transpiles JSX into valid JavaScript.",
-      "answers": ["React", "Babel", "Webpack", "ES6"],
-      "correctIndex": 1
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 34
     },
     {
-      "id": 5,
-      "prompt": "What syntax makes it possible to unpack values from arrays, or properties from objects, into distinct variables?",
-      "answers": ["spread", "key-value", "coalescing", "destructuring"],
-      "correctIndex": 3
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 35
     },
     {
-      "id": 6,
-      "prompt": "Returning different elements from a component depending on the state of your application is known as _____ rendering.",
-      "answers": ["voodoo", "conditional", "reactive", "controlled"],
-      "correctIndex": 1
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 36
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 37
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 38
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 39
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 40
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 41
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 42
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 43
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 44
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 65
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 66
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 67
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 68
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 69
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 70
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 71
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 72
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 73
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 74
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 75
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 76
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 77
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 78
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 79
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 80
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 81
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 82
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 83
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 84
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 85
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 86
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 87
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 88
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 89
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 90
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 91
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 92
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 93
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 94
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 95
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 96
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 97
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 98
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 99
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 100
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 101
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 102
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 103
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 104
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 105
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 106
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 107
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 108
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 109
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 110
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 111
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 112
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 113
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 114
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 115
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 116
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 117
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 118
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 119
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 120
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 121
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 122
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 123
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 124
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 125
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 126
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 127
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 128
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 129
+    },
+    {
+      "prompt": "",
+      "answers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctIndex": 0,
+      "id": 130
     }
   ]
 }

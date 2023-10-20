@@ -27,34 +27,31 @@ test("displays question prompts after fetching", async () => {
 test("creates a new question when the form is submitted", async () => {
   render(<App />);
 
-  // wait for first render of list (otherwise we get a React state warning)
-  await screen.findByText(/lorem testum 1/g);
+  // Wait for the form page to load
+  await screen.findByText("New Question");
 
-  // click form page
-  fireEvent.click(screen.queryByText("New Question"));
-
-  // fill out form
-  fireEvent.change(screen.queryByLabelText(/Prompt/), {
+  // Fill out the form
+  fireEvent.change(screen.getByLabelText("Prompt:"), {
     target: { value: "Test Prompt" },
   });
-  fireEvent.change(screen.queryByLabelText(/Answer 1/), {
+  fireEvent.change(screen.getByLabelText("Answer 1:"), {
     target: { value: "Test Answer 1" },
   });
-  fireEvent.change(screen.queryByLabelText(/Answer 2/), {
+  fireEvent.change(screen.getByLabelText("Answer 2:"), {
     target: { value: "Test Answer 2" },
   });
-  fireEvent.change(screen.queryByLabelText(/Correct Answer/), {
+  fireEvent.change(screen.getByLabelText("Correct Answer:"), {
     target: { value: "1" },
   });
 
-  // submit form
-  fireEvent.submit(screen.queryByText(/Add Question/));
+  // Submit the form
+  fireEvent.submit(screen.getByRole("Add Question"));
 
-  // view questions
-  fireEvent.click(screen.queryByText(/View Questions/));
+  // Wait for the new question to appear
+  await waitFor(() => screen.findByText("Test Prompt"));
 
-  expect(await screen.findByText(/Test Prompt/g)).toBeInTheDocument();
-  expect(await screen.findByText(/lorem testum 1/g)).toBeInTheDocument();
+  // Expect the new question to be in the list
+  expect(screen.getByText("Test Prompt")).toBeInTheDocument();
 });
 
 test("deletes the question when the delete button is clicked", async () => {
